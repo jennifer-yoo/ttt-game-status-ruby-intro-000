@@ -40,3 +40,4 @@ if board.include?("O") || board.include?("X")
 else board.include?(" ")
     return false
 end
+end
