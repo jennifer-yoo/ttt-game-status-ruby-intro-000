@@ -34,7 +34,8 @@ end
 
 
 def full?(board)
-board.all? {|player| player = "X" || player = "O"}
+  player = "X" || player = "O"
+if board.include?(player)
   return true
 end
 return false
