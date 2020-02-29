@@ -38,6 +38,6 @@ if board.all? {|player| player = "X" || player = "O"}
   return true
 end
 end
-elsif board.any? {|player| player = " "}
+else
 return false
 end
