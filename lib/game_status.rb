@@ -35,5 +35,5 @@ end
 
 def full?(board)
    board.all? {|player| player == "X" || player == "O"}
-   return false
+ end
 end
