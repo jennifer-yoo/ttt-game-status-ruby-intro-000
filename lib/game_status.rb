@@ -35,9 +35,9 @@ end
 
 def full?(board)
   player = "X" || player = "O" || player = " "
-if board.include?("O") || board.include?("X")
+if player.include?("O") || board.include?("X")
   return true
-else board.include?(" ")
+else player.include?(" ")
     return false
 end
 end
