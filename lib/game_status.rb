@@ -38,6 +38,6 @@ def full?(board)
 if board.include?(player)
   return true
 end
-if position_taken? = " "
+if position_taken? == " "
   return false
 end
