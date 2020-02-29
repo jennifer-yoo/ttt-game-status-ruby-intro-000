@@ -34,6 +34,7 @@ end
 
 
 def full?(board)
+  player = ["X", "O", " "]
   if player.include?("O") || player.include?("X")
   return true
 end
