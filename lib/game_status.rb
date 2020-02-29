@@ -34,10 +34,10 @@ end
 
 
 def full?(board)
-  if board.include?("O") || board.include?("X")
+   board.include?("O") || board.include?("X")
   return true
 end
-if board.all? { |index| index = " " }
+ board.all? { |index| index = " " }
     return false
 end
 end
