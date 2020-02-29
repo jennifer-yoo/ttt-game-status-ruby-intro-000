@@ -32,7 +32,18 @@ def won?(board)
 return false
 end
 
-
 def full?(board)
    board.all? {|player| player == "X" || player == "O"}
  end
+
+def draw?(board)
+if full?(board) == true
+  return true
+elsif full?(board) == false || won?(board) == true
+  return false
+end
+end
+
+  #true if the board has not been won but is full,
+  #false if the board is not won and the board is not full,
+  #false if the board is won.
