@@ -37,7 +37,7 @@ def full?(board)
   if board.include?("O") || board.include?("X")
   return true
 end
-if board.include?(" ")
+if board.any? { |index| index = " " }
     return false
 end
 end
