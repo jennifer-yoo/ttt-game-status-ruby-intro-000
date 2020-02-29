@@ -34,5 +34,5 @@ end
 
 
 def full?(board)
-   board.include?("O") || board.include?("X")
+   board.all? {|player| player = "X" || player = "O"}
 end
