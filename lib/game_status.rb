@@ -35,8 +35,5 @@ end
 
 def full?(board)
    board.include?("O") || board.include?("X")
-  return true
-
- board.all? { |index| index = " " }
-    return false
+end
 end
