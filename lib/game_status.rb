@@ -36,4 +36,3 @@ end
 def full?(board)
    board.include?("O") || board.include?("X")
 end
-end
