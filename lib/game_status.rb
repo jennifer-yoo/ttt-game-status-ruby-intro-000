@@ -40,4 +40,3 @@ end
  board.all? { |index| index = " " }
     return false
 end
-end
