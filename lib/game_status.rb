@@ -35,9 +35,9 @@ end
 
 def full?(board)
   if board.include?("O") || board.include?("X")
-  return false
+  return true
 end
 if board.include?(" ")
-    return true
+    return false
 end
 end
