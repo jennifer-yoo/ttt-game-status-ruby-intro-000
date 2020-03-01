@@ -43,6 +43,8 @@ end
 return false
 end
 
-  #true if the board has not been won but is full,
-  #false if the board is not won and the board is not full,
-  #false if the board is won.
+def over?(board)
+if draw?(board) || full?(board) || won?(board)
+returns true
+end
+#returns true if the board has been won, is a draw, or is full.
