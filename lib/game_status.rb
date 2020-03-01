@@ -50,8 +50,9 @@ end
 end
 
 def winner(board)
-if won?(board)
+if won?(board) == "X"
   return "X"
 end
+return "O"
 end
   #return the token, "X" or "O" that has won the game given a winning board.
