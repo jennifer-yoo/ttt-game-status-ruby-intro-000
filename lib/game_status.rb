@@ -57,8 +57,9 @@ return nil
 else
   if board[index[0]] == "X"
   return "X"
-end
+else
 return "O"
 end
 end
+
   #return the token, "X" or "O" that has won the game given a winning board.
