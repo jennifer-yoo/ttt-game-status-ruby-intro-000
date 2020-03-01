@@ -52,13 +52,13 @@ end
 def winner(board)
   index = []
   index = won?(board)
-if board[index[0]] == "X"
+if draw?(board)
+return nil
+else
+  board[index[0]] == "X"
   return "X"
 end
 return "O"
-else
-  index == false
-  return nil
 end
 end
   #return the token, "X" or "O" that has won the game given a winning board.
