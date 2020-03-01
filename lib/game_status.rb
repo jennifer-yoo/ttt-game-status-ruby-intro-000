@@ -52,7 +52,7 @@ end
 def winner(board)
 if won?(board)
   return "X"
-else
+else won?(board)
   return "O"
 end
 end
