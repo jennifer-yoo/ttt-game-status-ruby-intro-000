@@ -48,4 +48,10 @@ if draw?(board) || full?(board) || won?(board)
 return true
 end
 end
-#returns true if the board has been won, is a draw, or is full.
+
+def winner(board)
+if won?(board)
+  return "X" || "O"
+end
+end
+  #return the token, "X" or "O" that has won the game given a winning board.
