@@ -37,11 +37,8 @@ def full?(board)
  end
 
 def draw?(board)
-if full?(board)
+  full?(board) && !won?(board)
   return true
-elsif !won?(board)
-  return false
-end
 end
 
   #true if the board has not been won but is full,
